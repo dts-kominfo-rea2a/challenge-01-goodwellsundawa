@@ -47,7 +47,7 @@ favRestoFirstUser.add("Padang");
 favRestoFirstUser.add("Tteok");
 favRestoFirstUser.add("Sushi");
 favRestoFirstUser.add("Sushi");
-firstUser.favoriteRestaurant = favRestoFirstUser;
+firstUser.favoriteRestaurant = [...favRestoFirstUser]; //Spread syntax
 
 secondUser.name = "Wendy";
 secondUser.gender = "Male";
@@ -94,7 +94,7 @@ favRestoSecondUser.add("Katsu");
 favRestoSecondUser.add("Geprek");
 favRestoSecondUser.add("Pancake");
 favRestoSecondUser.add("Eggy");
-secondUser.favoriteRestaurant = favRestoSecondUser;
+secondUser.favoriteRestaurant = [...favRestoSecondUser]; //Spread syntax
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
