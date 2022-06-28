@@ -14,7 +14,7 @@ favColorFirstUser.add("Yellow");
 favColorFirstUser.add("Pink");
 favColorFirstUser.add("White");
 favColorFirstUser.add("Purple");
-firstUser.favoriteColor = favColorFirstUser;
+firstUser.favoriteColor = [...favColorFirstUser]; //Spread syntax
 
 firstUser.isHavePet = true;
 
@@ -58,7 +58,7 @@ const favColorSecondUser = new Set();
 favColorSecondUser.add("Blue");
 favColorSecondUser.add("Black");
 favColorSecondUser.add("Grey");
-secondUser.favoriteColor = favColorSecondUser;
+secondUser.favoriteColor = [...favColorSecondUser]; //Spread syntax
 
 secondUser.isHavePet = false;
 
